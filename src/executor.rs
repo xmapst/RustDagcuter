@@ -75,7 +75,7 @@ impl Dagcuter {
         }
 
         // 启动任务执行器
-        let semaphore = Arc::new(Semaphore::new(10)); // 限制并发数
+        let semaphore = Arc::new(Semaphore::new(1024)); // 限制并发数
         let mut handles = Vec::new();
 
         // 任务处理循环
