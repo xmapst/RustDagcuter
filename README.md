@@ -2,7 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)  [![Rust](https://img.shields.io/badge/rust-1.70%2B-orange.svg)](https://www.rust-lang.org)  [![Build Status](https://img.shields.io/badge/build-passing-brightgreen.svg)]
 
-RustDagcuter 是一个用于执行任务的有向无环图 (DAG) 的 Rust 库。它管理任务依赖关系，检测循环依赖关系，并支持可自定义的任务生命周期（执行前、执行后）。它还支持并发执行独立任务，以提高性能。
+[RustDagcuter](https://crates.io/crates/dagcuter) 是一个用于执行任务的有向无环图 (DAG) 的 Rust 库。它管理任务依赖关系，检测循环依赖关系，并支持可自定义的任务生命周期（执行前、执行后）。它还支持并发执行独立任务，以提高性能。
 
 ---
 
@@ -39,7 +39,7 @@ dagcuter/
 
    ```toml
    [dependencies]
-   dagcuter = "0.1.0"
+   dagcuter = "0.1.1"
    tokio = { version = "1.0", features = ["full"] }
    async-trait = "0.1"
    serde = { version = "1.0", features = ["derive"] }
