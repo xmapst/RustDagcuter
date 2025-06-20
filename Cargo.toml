@@ -1,6 +1,6 @@
 [package]
 name = "dagcuter"
-version = "0.1.2"
+version = "0.1.3"
 edition = "2024"
 description = "dagcuter is a Rust library for executing directed acyclic graphs (DAGs) of tasks. It manages task dependencies, detects cyclic dependencies, and supports customizable task lifecycles (pre-execution, post-execution). It also supports concurrent execution of independent tasks to improve performance."
 license = "Apache-2.0"
